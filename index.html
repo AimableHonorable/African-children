@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap css cdn link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway:wght@300&family=Jomhuria&display=swap&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+
+
+<!-- title should be changed -->
+    <title>African children</title>
+  </head>
+  <body class="bg-fith">
+    <!-- navigation fixed at the top of the page -->
+    <nav class="navbar navbar-expand-lg navbar-dark text-fith bg-main sticky-top">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <div class="form-inline my-2 my-lg-0">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+        </div>
+      </div>
+    </nav>
+<!-- end of navigation bar -->
+<!-- content -->
+<div class="container-fluid">
+  <!-- header section -->
+  <header>
+    <div class=" h-screen reverse-wrapp">
+      <div class=" col pt-5">
+        <h1 class="font-weight-bold text-main">AFRICAN CHILD DEVELOPMENT</h1>
+        <p class="text-sm py-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+        <h1 class="text-first">Want to contribute?</h1>
+        <div class="py-3 bg-second text-center my-3 rounded-oposite">
+
+          <h1 class="font-art text-fith">DONATE</h1>
+        </div>
+      </div>
+      <div class="bg-fourth col-md-8 curved-border p-0">
+        <img src="images/violin.jpg" alt="violin" class="cover-image">
+      </div>
+    </div>
+  </header>
+  <!-- main section -->
+  <main>
+    <div class="my-4 container">
+      <h1 class="font-weight-bold text-second text-center">Across Africa</h1>
+      <div class="variable-width">
+        <div class="card mx-2">
+          <div class="card-head overflow-hidden">
+            <img src="images/violinchild.jpg" alt="violin child" class="cover-image">
+          </div>
+          <div class="card-footer text-center">
+            <h3 class="text-third">KENYA</h3>
+          </div>
+        </div>
+        <div class="card mx-2">
+          <div class="card-head overflow-hidden">
+            <img src="images/acrobat.jpeg" alt="violin child" class="cover-image">
+          </div>
+          <div class="card-footer text-center">
+            <h3 class="text-third">RWANDA</h3>
+          </div>
+        </div>
+        <div class="card mx-2">
+          <div class="card-head overflow-hidden">
+            <img src="images/art.jpg" alt="violin child" class="cover-image">
+          </div>
+          <div class="card-footer text-center">
+            <h3 class="text-third">GHANA</h3>
+          </div>
+        </div>
+        <div class="card mx-2">
+          <div class="card-head overflow-hidden">
+            <img src="images/violin.jpg" alt="violin child" class="cover-image">
+          </div>
+          <div class="card-footer text-center">
+            <h3 class="text-third">BURUNDI</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+
+<!-- Javascript links for bootstrap cnd jquery and slick -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="text/javascript">
+      $('.variable-width').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ]
+      });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
